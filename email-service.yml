@@ -2,8 +2,8 @@ spring:
   mail:
     default-encoding: UTF-8
     host: smtp.gmail.com
-    username: juggler.stackroute@gmail.com
-    password: juggler123
+    username: buzzup.stackroute@gmail.com
+    password: buzzup123
     port: "587"
     protocol: smtp
     test-connection: "false"
@@ -21,8 +21,8 @@ management:
 eureka:
  client:
    service-url:
-     defaultZone: http://10.20.1.216:9083/eureka
+     defaultZone: http://127.0.0.1:9083/eureka
    register-with-eureka: "true"
    fetch-registry: "true"
-bootstrap-id : 10.20.1.16:9092
+bootstrap-id : 127.0.0.1:9092
 
